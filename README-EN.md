@@ -1,31 +1,31 @@
 # All The Mods 6 To The Sky Translation (Simplified Chinese)
 
-ZH-CN / [EN](README-EN.md)
+[ZH-CN](README.md) / EN
 
-## 翻译进度
-翻译进度见 [TRANSLATION-PROGRESS.md](TRANSLATION-PROGRESS.md)
+## Translation Progress
+See [TRANSLATION-PROGRESS.md](TRANSLATION-PROGRESS.md)
 
 -------------
-# 原 README
-### [!ATM6 Discord](https://discord.gg/K5FBPYa)
+# Original README
+### [![ATM6](https://cdn.discordapp.com/attachments/668300600995348490/871544532750176347/atm6s_banner.png)](https://discord.gg/K5FBPYa)
 
 ## All The Mods 6 To The Sky
 
-这是 All The Mods 6 To The Sky 1.16 的官方存储库和问题跟踪器
+This is the official repository and issue-tracker for All The Mods 6 To The Sky 1.16
 
-“All The Mods”真的包含 **所有模组** 吗？当然不。
+Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
 
-## 需要帮助？
+## Need Help?
 
-报告问题时，将版本号放在问题标题之前！ 例如 [FULL][1.37] 我的游戏坏了！还要在问题描述中包含您可能已添加的任何附加模块。
+When reporting an issue put the version number before the issue title! Such as [FULL][1.37] My game is broken! Also include any added mods you may have put in, into the description of the issue.
 
-|                                                                         您也可以在 Discord 上找到我们寻求帮助<br>或者去 Reddit                                                                         |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <a href="https://discordapp.com/invite/rbSZNDQ"><img src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" alt="Join us on Discord!"  width="200" height="68"></a> |
-|    <a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a>     |
+|You can also find us on Discord for help<br>or just to chat as well as Reddit|
+|:------------:|
+|<a href="https://discordapp.com/invite/rbSZNDQ"><img src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" alt="Join us on Discord!"  width="200" height="68"></a>|
+|<a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a>|
 <br>
 
-##### ATM整合包:
+##### Modpacks:
 + [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods 1 - ATM1](https://www.curseforge.com/minecraft/modpacks/all-the-mods)
 + [![All the Mods 2](http://cf.way2muchnoise.eu/253707.svg "ATM2") All The Mods 2 - ATM2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-2)
 + [![All the Mods 3](http://cf.way2muchnoise.eu/269708.svg "ATM3") All The Mods 3 - ATM3](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3)

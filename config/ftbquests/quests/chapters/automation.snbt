@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 2,
 	filename: "automation",
-	title: "Tech",
+	title: "科技",
 	icon: "engineersdecor:small_electrical_furnace",
 	default_quest_shape: "",
 	quests: [
@@ -12,11 +12,11 @@
 			x: -10.5d,
 			y: -9.5d,
 			description: [
-				"Auto-Sieves are a server friendly way to get material, and it contains a mini slave to do your bidding.",
+				"自动筛子是一种服务器友好的获取材料的方式，它包含一个迷你奴隶来给你打工（不要钱的那种，当然要电）。",
 				"",
-				" You can change the slave by using a name tag on the auto-sieve.",
+				" 您可以通过使用自动筛子上的名称标签来更改.",
 				"",
-				"We have 4 people for you as reward. Some of the devs, and a player that helped with the quests."
+				"我们有 4 个人作为奖励。一些开发人员，以及帮助完成任务的玩家。"
 			],
 			id: "7F95D4C8AEFB5A95",
 			tasks: [{
@@ -172,10 +172,10 @@
 			]
 		},
 		{
-			title: "More power to the slaves!",
+			title: "自动压缩筛子！",
 			x: -10.5d,
 			y: -7.5d,
-			description: ["Pretty much the same as the previous auto-sieve. But it can use compressed grounded up blocks."],
+			description: ["与以前的自动筛子几乎相同。但它可以使用压缩的方块。"],
 			dependencies: ["7F95D4C8AEFB5A95"],
 			id: "06821798EEECA8A4",
 			tasks: [{
@@ -195,9 +195,9 @@
 			x: 1.0d,
 			y: -9.5d,
 			description: [
-				"Obviously you could choose any method you want to auto collect your gravel/sand/dust, but there are many other ways to get them than just hammering.",
+				"显然，您可以选择任何您想自动收集沙砾和灰尘的方法，但除了锤击之外，还有许多其他方法可以得到它们。",
 				"",
-				"Maybe some automation."
+				"也许能自动化。"
 			],
 			min_required_dependencies: 1,
 			dependencies: [
@@ -226,7 +226,7 @@
 			title: "Pipez",
 			x: -11.5d,
 			y: -10.5d,
-			description: ["This pipe mod is an all round powerhouse, from filtering options to greatly optimised, so give your server owner the weekend off and try them out ;)"],
+			description: ["这个管道模组是一个全方位的强者，从过滤选项到大大优化，所以让你的服务器所有者周末休息的时候尝试一下 ;)"],
 			id: "38F48F2A9BB52F24",
 			tasks: [
 				{
@@ -262,10 +262,10 @@
 			}]
 		},
 		{
-			title: "Dynamic Lava Power",
+			title: "岩浆动能",
 			x: -5.0d,
 			y: -9.5d,
-			description: ["Wait there a second, you are in a skyblock pack and not planning on powering your base with lava? BLASPHEMY"],
+			description: ["等一下，你是在一个空岛整合包中，不打算用熔岩为你的基地供电？"],
 			dependencies: ["095F5AE5A801000A"],
 			id: "716D9C2F74999B5A",
 			tasks: [{
@@ -299,7 +299,7 @@
 		{
 			x: -9.5d,
 			y: -8.5d,
-			description: ["You are a little far away from an angel ring, so a jetpack might stop you dying to the void..."],
+			description: ["你离天使戒指有点远，所以喷气背包可能会阻止你死于虚空......"],
 			id: "7F282D66F27BA49D",
 			tasks: [{
 				id: "22862394DEF08422",
@@ -323,23 +323,23 @@
 			}]
 		},
 		{
-			title: "The Power of Pedestal!",
+			title: "基座的力量!",
 			icon: "pedestals:pedestal/stone333",
 			x: -9.5d,
 			y: -10.5d,
 			description: [
-				"Pedestal is a mod that greatly opens to new ideas.",
+				"Pedestal（基座）是一个可以极大地接受新想法的模组。",
 				"",
-				"With Jei you can get info on each pedestal upgrade.",
+				"使用 Jei，您可以获得有关每个基座升级的信息。",
 				"",
-				"The Upgrades can be Enchanted for better results."
+				"升级可以附魔以获得更好的效果."
 			],
 			id: "411EB0C61927576B",
 			tasks: [
 				{
 					id: "2ADEEF8356BA8D18",
 					type: "item",
-					title: "Any #pedestals:linkingtool",
+					title: "任意 #pedestals:linkingtool",
 					item: {
 						id: "itemfilters:tag",
 						Count: 1b,
@@ -370,18 +370,18 @@
 			x: -6.5d,
 			y: -9.5d,
 			description: [
-				"There are many mods that generates power, some of which are better then others.",
+				"有许多产生能量的模组，其中一些比其他的更好。",
 				"",
-				"For this, you must do at least the basic generators of certain mods.",
+				"为此，您必须至少完成某些 mod 的基本的发电机。",
 				"",
-				'&c"These quest weren\'t meant to be proportionate at 1st. They were meant for teaching the energy production of their mod, and reward you their mod\'s battery. I will make some more optional. But the rewards will still be related to their mod. With the exception of coal generators."',
+				'&c"这些任务一开始就不是成比例的。他们的目的是教授他们的模组的能量生产，并奖励你他们模组的电池。我会做一些更多的可选。但奖励仍将与他们的模组有关。燃煤发电机除外。"',
 				"- Pun_isher"
 			],
 			id: "095F5AE5A801000A",
 			tasks: [{
 				id: "46F297EC9A31ACF8",
 				type: "checkmark",
-				title: "Generating Power",
+				title: "发电",
 				icon: "mekanismgenerators:advanced_solar_generator"
 			}]
 		},
@@ -390,11 +390,11 @@
 			x: -5.5d,
 			y: -10.5d,
 			description: [
-				"This is one special machine that works when surrounded by lava.",
+				"这是一种在被熔岩包围时工作的特殊机器。",
 				"",
-				'You can even "Lava-log" it to generate more power.',
+				'你甚至可以“Lava-log”它来产生更多的能量。',
 				"",
-				"It can also be filled for EVEN MOAR POWAH!"
+				"它也可以为 EVEN MOAR POWAH 填充!"
 			],
 			dependencies: ["095F5AE5A801000A"],
 			id: "581A8BC06B67F682",
@@ -405,13 +405,13 @@
 			}]
 		},
 		{
-			title: "Heated Bum? Need water?",
+			title: "需要水？",
 			x: -5.5d,
 			y: -8.5d,
 			description: [
-				"The generators of this pack can be upgraded by crafting.",
+				"这个整合包的发电机可以通过制作来升级。",
 				"",
-				"This generator will produce power with a heat source underneath and filling it up with a coolant, most commonly water."
+				"该发电机将通过下方的热源产生电力，并用冷却剂填充它，最常见的是水."
 			],
 			dependencies: ["095F5AE5A801000A"],
 			id: "37B77C8C9403772C",
@@ -426,11 +426,11 @@
 			x: -6.5d,
 			y: -7.5d,
 			description: [
-				"This generator, requires another part that gives a rotational force to it.",
+				"该发电机需要另一个为其提供旋转力的部件。",
 				"",
-				"Thankfully it has 2 ways for it, and they can be used as decorations when not needed when you get better power.",
+				"值得庆幸的是它有两种方式，当你获得更好的能量时，它们可以在不需要时用作装饰品。",
 				"",
-				"But the best part of this, is that the generator doesn't need fuel."
+				"但最好的部分是发电机不需要燃料。"
 			],
 			dependencies: ["095F5AE5A801000A"],
 			id: "4879018D4DB5BC04",
@@ -441,7 +441,7 @@
 			}]
 		},
 		{
-			title: "Too Many Coal Generators",
+			title: "燃煤发电机太多了！",
 			x: -6.5d,
 			y: -11.0d,
 			dependencies: ["095F5AE5A801000A"],
@@ -514,7 +514,7 @@
 			}]
 		},
 		{
-			title: "Pedestal Upgrade: Crusher",
+			title: "底座升级：破碎机",
 			icon: "pedestals:coin/crusher",
 			x: 2.0d,
 			y: -10.5d,
@@ -571,7 +571,7 @@
 			}]
 		},
 		{
-			title: "Looking for Mica?",
+			title: "找云母？",
 			icon: {
 				id: "envirotech:litherite_void_miner_ccu",
 				Count: 1b,
@@ -614,7 +614,7 @@
 		{
 			x: -4.0d,
 			y: -9.5d,
-			description: ["A dynamic generator that can use most oil type fluids, even the Creosole Oil from Immersive Engineering's Blast Furnace."],
+			description: ["一种动能发电机，可以使用大多数油类流体，甚至是来自 Immersive Engineering 的高炉的甲酚油。"],
 			dependencies: ["095F5AE5A801000A"],
 			id: "27B5C6456BD16FD3",
 			tasks: [{
@@ -626,7 +626,7 @@
 		{
 			x: -3.0d,
 			y: -9.5d,
-			description: ["This dynamic generator uses Metal coins to produce a large amount of power."],
+			description: ["这种动态发电机使用金属币来产生大量的电力。"],
 			dependencies: ["095F5AE5A801000A"],
 			id: "2E117EDB18112FB1",
 			tasks: [{
@@ -638,7 +638,7 @@
 		{
 			x: -2.0d,
 			y: -9.5d,
-			description: ["This dynamic generator uses Crystals as a power source, such as diamonds, lapis, and quartz."],
+			description: ["这种动态发电机使用水晶作为动力源，例如钻石、青金石和石英。"],
 			dependencies: ["095F5AE5A801000A"],
 			id: "140CA8C6BF4850DB",
 			tasks: [{
@@ -648,15 +648,15 @@
 			}]
 		},
 		{
-			title: "Hot and Cold",
+			title: "热和冷",
 			x: -6.5d,
 			y: -6.5d,
 			description: [
-				"This generator requires both sides a hot and cold source block.",
+				"该发电机需要两侧都有一个冷、热源块。",
 				"",
-				"All 4 sides can be used as long as their opposite side is the opposite temperature.",
+				"只要它们的对面是相反的温度，所有 4 个面都可以使用。",
 				"",
-				"This will not consume the materials. So it's another way for infinite source of low energy."
+				"这不会消耗材料。所以这是另一种无限低能量来源的方法。"
 			],
 			dependencies: ["095F5AE5A801000A"],
 			id: "36214249EB744748",
@@ -678,15 +678,15 @@
 			}]
 		},
 		{
-			title: "Power of the Wind",
+			title: "风之力",
 			x: -7.0d,
 			y: -7.0d,
 			description: [
-				"Unlike mekanism's windmill this one works the same at any hight.",
+				"与 mekanism 风力发电机不同，这款风车在任何高度都一样。",
 				"",
-				"As long as nothing is in front of the windmill it will produce power, it gains more power during rainy days.",
+				"只要风车前面没有任何东西，它就会产生电力，在下雨天它会获得更多的电力。",
 				"",
-				"It can be upgraded when using a Windmill sail on it."
+				"在其上使用风车帆时可以升级."
 			],
 			dependencies: ["4879018D4DB5BC04"],
 			id: "2FC4A66AA0ADC628",
@@ -697,10 +697,10 @@
 			}]
 		},
 		{
-			title: "Thirsty for lava",
+			title: "渴望熔岩",
 			x: -5.0d,
 			y: -8.0d,
-			description: ["This generator requires molten lava to generate power."],
+			description: ["该发电机需要熔岩来发电。"],
 			dependencies: ["095F5AE5A801000A"],
 			id: "53729FFD3243C14D",
 			tasks: [{
@@ -721,7 +721,7 @@
 			tasks: [{
 				id: "3542F42E5302F664",
 				type: "checkmark",
-				title: "Tiered Storage",
+				title: "分层存储",
 				icon: "powah:furnator_basic"
 			}],
 			rewards: [{
@@ -744,7 +744,7 @@
 			tasks: [{
 				id: "07F88E97C40CEAA8",
 				type: "checkmark",
-				title: "Thermal Power Containment",
+				title: "火电遏制",
 				icon: {
 					id: "thermal:energy_cell",
 					Count: 1b,
@@ -791,7 +791,7 @@
 			tasks: [{
 				id: "5E4C4C02DE4AC00D",
 				type: "checkmark",
-				title: "Low Voltage",
+				title: "低电压",
 				icon: "immersiveengineering:capacitor_lv"
 			}],
 			rewards: [{
@@ -802,10 +802,10 @@
 			}]
 		},
 		{
-			title: "Power from the skies",
+			title: "来自天空的力量",
 			x: -5.0d,
 			y: -11.0d,
-			description: ["The wind generators of this mod works best the higher up you place them."],
+			description: ["这个模组的风力发电机放置得越高，效果越好。"],
 			dependencies: ["095F5AE5A801000A"],
 			id: "1FD37CCE9DBF0679",
 			tasks: [{
@@ -815,13 +815,13 @@
 			}]
 		},
 		{
-			title: "Plant Power!",
+			title: "植物电力!",
 			x: -4.5d,
 			y: -11.5d,
 			description: [
-				"This uses Bio Fuel as... well Fuel.",
+				"这使用生物燃料作为......燃料。",
 				"",
-				"It's only dependant to it."
+				"它只依赖于它。"
 			],
 			dependencies: ["095F5AE5A801000A"],
 			id: "27F08F9636B45063",
@@ -844,7 +844,7 @@
 			tasks: [{
 				id: "0D3510017784F0A5",
 				type: "checkmark",
-				title: "Loki though it was Frostmourn",
+				title: "洛基虽然是霜之哀伤",
 				icon: "mekanism:basic_energy_cube"
 			}],
 			rewards: [{
@@ -855,17 +855,17 @@
 			}]
 		},
 		{
-			title: "The world of Pressure.",
+			title: "压力的世界。",
 			x: -6.5d,
 			y: -13.0d,
 			description: [
-				"Welcome to the explosive side of the Tech mods, &b&lPneumaticraft&r &f(&cThe P is Silent&f).",
+				"欢迎来到科技模组的爆炸性一面, &b&l气动工艺&r &f(&cThe P is Silent&f).",
 				"",
-				"You actually need to blow up Iron on the ground to get compressed Iron.",
+				"你实际上需要炸毁地上的铁才能得到压缩的铁.",
 				"",
-				"I feel generous and will give 32 compressed iron for this explosive effort.",
+				"我觉得很慷慨，会为这次爆发力提供 32 个压缩铁锭。",
 				"",
-				"You must have a blast resistant floor such as obsidian. The Cheapest explosive is Tiny TNT and it works."
+				"你必须有一个防爆地板，如黑曜石。最便宜的炸药是Tiny TNT，它很管用."
 			],
 			id: "2F58BC36AC629184",
 			tasks: [
@@ -894,17 +894,17 @@
 			}]
 		},
 		{
-			title: "Pipes and... Explosions?",
+			title: "管道和……爆炸?",
 			x: -6.5d,
 			y: -14.0d,
 			description: [
-				"One of the main reasons that pneumaticraft was much avoided by many are that... they can explode even the pipes.",
+				"许多人避免使用气动工艺的主要原因之一是……它们甚至可以爆炸管道。",
 				"",
-				"But pneumaticraft has ways to prevent the explosions for the pipes and machines:",
+				"但是气动工艺有办法防止管道和机器爆炸：",
 				"",
-				"- The &cSafety Tube Modual &fin which you place on top of tubes to release pressure past 4.9.",
+				"- &c安全管道模块 &f在其中您放置在管的顶部以释放超过 4.9 的压力。",
 				"",
-				"- The &cSecurity Upgrade &fwhich is an upgrade for to be place inside your machines and generators."
+				"- &c安全升级 &f这是放置在您的机器和发电机内的升级。"
 			],
 			dependencies: ["2F58BC36AC629184"],
 			id: "3C092849EDB6A134",
@@ -935,10 +935,10 @@
 			]
 		},
 		{
-			title: "Lava Pressured",
+			title: "熔岩压力",
 			x: -7.5d,
 			y: -16.0d,
-			description: ["The best early machine especially if you have a way to get indefinate quantities of lava."],
+			description: ["最好的早期机器，特别是如果您有办法获得无限量的熔岩。"],
 			dependencies: ["0AAE038955CF936E"],
 			id: "48DF6486F398241D",
 			tasks: [{
@@ -948,13 +948,13 @@
 			}]
 		},
 		{
-			title: "Stressing an Air Head",
+			title: "强调空气头",
 			x: -6.5d,
 			y: -16.0d,
 			description: [
-				"The 1st generator to produce Pressure.",
+				"第一个产生压力的发气机。",
 				"",
-				"It consumes solid fuel such as coal."
+				"它消耗煤炭等固体燃料。"
 			],
 			dependencies: ["3C092849EDB6A134"],
 			id: "0AAE038955CF936E",
@@ -965,19 +965,19 @@
 			}]
 		},
 		{
-			title: "Hot and Cold",
+			title: "热和冷",
 			x: -7.5d,
 			y: -15.0d,
 			description: [
-				"This generator uses heat difference to generate pressure.",
+				"该生气机利用热差产生压力。",
 				"",
-				"It will cool the heat, and heat the cold, but there are ways around that.",
+				"它会冷却热量，加热寒冷，但有一些方法可以解决这个问题。",
 				"",
-				"&aBotania &fand &bMekanism &fdoes provide a indefinate source of heat and cold blocks that can help with this machine.",
+				"&a植物魔法 &f和 &bMek &f提供了一个不确定的热源和冷块，可以帮助这台机器。",
 				"",
-				"And yes, &bMekanism &fpipes works on Pneumaticraft.",
+				"是的, &bMek &f的 on Pneumaticraft.",
 				"",
-				"But for &aBotania&f, you need to make Ice with it's pure daisy. It will refreeze the ice. Pneumaticraft &cHeat pipes do connect to ice blocks&f."
+				"But for &aBotania&f, 你需要用白雏菊产冰。 它会重新冻结冰。 Pneumaticraft &c热管连接到冰块&f."
 			],
 			dependencies: ["0AAE038955CF936E"],
 			id: "409B4DCEB49CD49E",
@@ -1007,17 +1007,17 @@
 			]
 		},
 		{
-			title: "Multiblock Pressurization",
+			title: "多方块加压",
 			x: -6.5d,
 			y: -17.0d,
 			description: [
-				"This is the main machine of the pneumaticraft mod.",
+				"这是气动工艺的主要机器。",
 				"",
-				"The Pressure Chamber.",
+				"压力室。",
 				"",
-				"No more need to risk your iron in explosions, you can pressurize the iron in a 1 by 1 ratio.",
+				"不再需要让铁冒着爆炸的风险，您可以按 1 比 1 的比例对铁加压。",
 				"",
-				"It can even be use to Enchant your items, as long as it's a valid enchantment and no experience cost. But it won't upgrade your enchantments. In other words: Unbreaking 2 won't upgrade to unbreaking 3 if you add another unbreaking 2. But it can still accept other enchantments that are not on the gear."
+				"它甚至可以用来为你的物品附魔，只要它是有效的附魔并且没有经验成本。 但它不会升级你的附魔。 换句话说：如果你添加另一个 unbreak 2，Unbreak 2 不会升级到 unbreak 3。 但它仍然可以接受其他不在装备上的结界。"
 			],
 			dependencies: ["0AAE038955CF936E"],
 			id: "75BB0A1F44907F1B",
@@ -1045,9 +1045,9 @@
 			x: -6.5d,
 			y: -18.0d,
 			description: [
-				"This vacuum pump will reverse pressure into the negatives.",
+				"该真空泵会将压力反转为负值。",
 				"",
-				"When used on a pressure chamber it currently only extract enchantments from items, by using the item and a book."
+				"当在压力室上使用时，它目前只能通过使用物品和书来从物品中提取附魔。"
 			],
 			dependencies: ["75BB0A1F44907F1B"],
 			id: "729FCC7F807A70A1",
@@ -1061,9 +1061,9 @@
 			x: -7.5d,
 			y: -17.0d,
 			description: [
-				"Pneumaticraft has many tools in their shed. But it requires pressure to be used.",
+				"气动工艺有很多工具。但它需要压力才能使用。",
 				"",
-				"So having a charging station is better to get things on the roll. But it helps if you have the wrench as well from then on."
+				"因此，拥有一个充气站更好地让事情顺利进行。但如果从那时起你也有扳手，它会有所帮助。"
 			],
 			dependencies: ["0AAE038955CF936E"],
 			id: "532C675899B504DF",
@@ -1090,17 +1090,17 @@
 			}]
 		},
 		{
-			title: "Processing Transformation",
+			title: "加工改造",
 			x: -5.5d,
 			y: -16.0d,
 			description: [
-				"This machine can work the same way as the Refinery but with extra steps.",
+				"这台机器可以以与炼油厂相同的方式工作，但需要额外的步骤。",
 				"",
-				"It is the main machine to get Pneumaticraft Plastic.",
+				"它是获得气动工艺中的塑料的主要机器。",
 				"",
-				"The Amadron Tablet might get Lubricant, but for automation, it is best to use this machine.",
+				"可能会在Amadron 平板电脑中获得润滑剂，但为了自动化，最好使用这台机器。",
 				"",
-				"Plus you don't need to use crude oil to get to plastic using this. As it provides Ethenol, and Plant Oil for the Fluid Mixer."
+				"另外，您不需要使用原油来获得塑料。 因为它为流体混合器生产乙醇和植物油。"
 			],
 			dependencies: ["0AAE038955CF936E"],
 			id: "5B20C2A5E4247C0E",
@@ -1111,13 +1111,13 @@
 			}]
 		},
 		{
-			title: "Plastic, with pink slime.",
+			title: "带有粉红色粘液的塑料。",
 			x: -5.5d,
 			y: -15.0d,
 			description: [
-				"This machine will process crude oil into various liquids such as LPG which is the one of the main ingrediants to make Pneumaticraft Plastic.",
+				"这台机器将原油加工成各种液体，如液化石油气，液化石油气是制造气动工艺中的塑料的主要原料之一。",
 				"",
-				"It also gives other liquids that are very useful."
+				"它还提供其他非常有用的液体。"
 			],
 			dependencies: ["0AAE038955CF936E"],
 			id: "6BAD995798816F59",
@@ -1138,9 +1138,9 @@
 			x: -4.5d,
 			y: -16.0d,
 			description: [
-				"Speed Upgrade does what it does, it speeds up all your pneumaticraft machines at that they do.",
+				"速度升级可以加速您所有的气动机器。",
 				"",
-				"Fluid Mixer is optional, but it does give a byproduct that can double the amount you get for crafting speed upgrades."
+				"流体混合器是可选的，但它确实提供了一个副产品，可以使您获得的数量翻倍用于制作速度升级。"
 			],
 			dependencies: [
 				"5B20C2A5E4247C0E",
@@ -1154,13 +1154,13 @@
 			}]
 		},
 		{
-			title: "Plastic, without pink slime.",
+			title: "没有粉红色粘液的塑料。",
 			x: -5.5d,
 			y: -17.0d,
 			description: [
-				"This machine will give the main ingrediant for Plastic without the use of the Fluid Mining Laser. It does give more steps to the pneumaticraft branch, but it's only for that branch without the need to visit other mods.",
+				"这台机器将在不使用流体采矿激光器的情况下提供塑料的主要成分。 它确实为气动筏分支提供了更多步骤，但它仅适用于该分支，无需访问其他模块。",
 				"",
-				"It can use Ethenol, and Plant/Vegetable Oil to make Biodiesel. Which can be use to make Lubricant and Plastic."
+				"它可以使用乙醇和植物植物油来制造生物柴油。可用于制造润滑剂和塑料。"
 			],
 			dependencies: [
 				"0AAE038955CF936E",
@@ -1223,7 +1223,7 @@
 			}]
 		},
 		{
-			title: "Some assembly required",
+			title: "需要一些组装",
 			x: -3.5d,
 			y: -18.0d,
 			dependencies: [
