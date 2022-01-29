@@ -1,7 +1,7 @@
 {
 	id: "1CE2714822370565",
 	order_index: 5,
-	title: "Farm Tier 2",
+	title: "农场 2 级",
 	icon: "mysticalagriculture:tertium_farmland",
 	loot_size: 1,
 	rewards: [

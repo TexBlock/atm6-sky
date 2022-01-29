@@ -1,7 +1,7 @@
 {
   "modId": "tconstruct",
   "group": {
-    "name": "Tinkers Construct",
+    "name": "匠魂树苗",
     "enabledByDefault": true,
     "defaultPayment": {
       "item": "minecraft:slime_block",

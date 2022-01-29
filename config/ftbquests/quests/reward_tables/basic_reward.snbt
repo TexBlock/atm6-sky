@@ -1,7 +1,7 @@
 {
 	id: "08EFC70635D4632B",
 	order_index: 1,
-	title: "Basic Reward",
+	title: "基本奖励",
 	loot_size: 1,
 	rewards: [
 		{

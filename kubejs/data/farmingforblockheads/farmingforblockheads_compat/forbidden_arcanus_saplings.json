@@ -1,7 +1,7 @@
 {
   "modId": "forbidden_arcanus",
   "group": {
-    "name": "Forbidden Arcanus",
+    "name": "禁忌与奥秘树苗",
     "enabledByDefault": true,
     "defaultPayment": {
       "item": "forbidden_arcanus:arcane_crystal_dust"

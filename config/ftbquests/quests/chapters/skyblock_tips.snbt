@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 0,
 	filename: "skyblock_tips",
-	title: "Skyblock Tips",
+	title: "空岛小贴士",
 	icon: "astralsorcery:tree_beacon",
 	default_quest_shape: "circle",
 	quests: [
@@ -12,16 +12,16 @@
 			y: -7.0d,
 			shape: "heart",
 			description: [
-				"Welcome to All the Mods 6 : Sky",
+				"欢迎来到ATM6:Sky",
 				"",
-				"Where the classic skyblock meets the creators of All the mods.",
+				"经典空岛与所有模组的创作者相遇的地方。",
 				"",
-				"This pack will parallel the ATM 6 modpack to some extent for Balance.",
+				"此包将在一定程度上与 ATM 6 模组包平行，用于平衡。",
 				"",
-				"Feel free to join us in Discord:",
+				"随时加入我们的 Discord：",
 				"https://discord.com/invite/FdFDVWb",
 				"",
-				"And if any issues and suggestions feel free to post here:",
+				"如果有任何问题和建议，请随时在此处发布：",
 				"https://github.com/AllTheMods/atm6-sky/issues"
 			],
 			hide_text_until_complete: false,
@@ -30,7 +30,7 @@
 			tasks: [{
 				id: "0330BA82DA068045",
 				type: "checkmark",
-				title: "Welcome to ATM6: Sky",
+				title: "欢迎来到 ATM6: Sky",
 				icon: "astralsorcery:tree_beacon"
 			}]
 		},
@@ -38,11 +38,11 @@
 			x: 3.0d,
 			y: -4.0d,
 			description: [
-				"A useful feature of &e&lQuark &f&ris that you can place blocks on sides you can't see but reach.",
+				"&e&lQuark &f&r的一个有用功能，您可以将块放置在您看不到但够到的边上。",
 				"",
-				"When you see your crosshair have [+] while sneaking at the bottom side of a block, you will be able to place a block under the block you are looking at.",
+				"当你看到你的十字准线有 [+] 而潜行在一个方块的底部时，你就可以在你正在看的方块下面放置一个方块。",
 				"",
-				"While seeing <+> you will put a block on the opposite side of the block you are looking at."
+				"在看到 <+> 时，您将在您正在查看的块的另一侧放置一个块。"
 			],
 			dependencies: ["1E48DA1EB612BDFA"],
 			hide: false,
@@ -50,7 +50,7 @@
 			tasks: [{
 				id: "0EBB2F5E907DA8BA",
 				type: "checkmark",
-				title: "Reacharound Placing",
+				title: "触及范围放置",
 				icon: "ars_nouveau:glyph_place_block"
 			}],
 			rewards: [{
@@ -61,23 +61,23 @@
 			}]
 		},
 		{
-			title: "Phantom Problem?",
+			title: "幻翼问题？",
 			x: -3.5d,
 			y: -5.5d,
 			shape: "hexagon",
 			description: [
-				"A common problem seen by the testers of the pack is facing against phantoms at night.",
+				"包的测试人员看到的一个常见问题是在夜间面对幻翼。",
 				"",
-				"Phantoms will only spawn if the player's head is above sea level Y=64",
+				"只有当玩家的头部高于海平面 Y=64 时幻翼才会生成",
 				"",
-				"Making the island at most Y=62 or less will help prevent them from spawning."
+				"使岛屿最多 Y=62 或更少将有助于防止它们产卵。"
 			],
 			dependencies: ["723868AAF4E86CDA"],
 			id: "728B7B0B02A2E937",
 			tasks: [{
 				id: "6A5AFD5B9D48BC52",
 				type: "checkmark",
-				title: "Phantom Problem",
+				title: "幻翼问题",
 				icon: "minecraft:phantom_spawn_egg"
 			}],
 			rewards: [{
@@ -95,7 +95,7 @@
 			tasks: [{
 				id: "22CD2D0DF048E4C6",
 				type: "checkmark",
-				title: "Mob spawning tips",
+				title: "刷怪提示",
 				icon: "minecraft:spawner"
 			}]
 		},
@@ -104,26 +104,26 @@
 			y: -4.0d,
 			shape: "hexagon",
 			description: [
-				"There are Multiple ways to prevent mobs to spawn on your island, will even add some common knowledge tips",
+				"有多种方法可以防止小怪在你的岛上产生，甚至会添加一些常识提示",
 				"",
-				"- &aLightsources",
-				'We have more overlays mod, pressing F7 will show Red and Yellow "X" on blocks.',
-				'Hostile Mobs will spawn on those, in which the yellow "X" is only during the night.',
+				"- &a光源",
+				'我们有More Overlays模组，按 F7 将在块上显示红色和黄色“X”。',
+				'夜间生成的敌对生物仅会在那些黄色“X”的位置上生成。',
 				"",
-				"- &aNon-Full blocks",
-				"Mainly Bottom Slabs, Stairs, Glass type blocks hostile mobs will not spawn on.",
+				"- &a非完整块",
+				"主要是下半砖、楼梯、玻璃类型的方块敌对生物不会在上面生成。",
 				"",
-				"- &aRange",
-				"All Mobs will spawn only outside a range of 24 blocks.",
+				"- &a范围",
+				"所有生物只会在（玩家） 24 格范围之外生成。",
 				"",
-				"- &bAnd special blocks which shown as the next tip"
+				"- &b以及显示为下一个提示的特殊块"
 			],
 			dependencies: ["723868AAF4E86CDA"],
 			id: "4D24D92E56049467",
 			tasks: [{
 				id: "179C71A3797505CA",
 				type: "checkmark",
-				title: "Ways to Prevent of spawning",
+				title: "防止生怪的方法",
 				icon: "minecraft:torch"
 			}],
 			rewards: [{
@@ -134,15 +134,15 @@
 			}]
 		},
 		{
-			title: "Anti-Hostile Torch",
+			title: "反敌手火炬",
 			x: -4.5d,
 			y: -4.0d,
 			description: [
-				"&e&lTorchmaster &rgives 4 items, one of which is a mega torch.",
+				"&e&l火炬大师 &r 提供 4 件物品，其中一件是巨型火炬。",
 				"",
-				"This torch will prevent hostile mobs within a 64 block radius by default to spawn.",
+				"默认情况下，此火炬将阻止 64 格半径内的敌对生物生成。",
 				"",
-				"&eBest used in Open grassy fields which you don't want a bunch of torches on them, and more chance for passive mobs to spawn."
+				"&e最好用于开阔的草地，你不想在上面放一堆火把，并且有更多的机会产生被动小怪。"
 			],
 			dependencies: ["4D24D92E56049467"],
 			hide: true,
@@ -159,15 +159,15 @@
 			}]
 		},
 		{
-			title: "Anti-Passive Mobs",
+			title: "反被动小怪",
 			x: -3.0d,
 			y: -2.5d,
 			description: [
-				"&e&lTorchmaster &rhas an item that prevents passive mobs to spawn.",
+				"&e&lTorchmaster &r有一个物品可以防止被动生物生成。",
 				"",
-				"The Dread Lamp will prevent passive mobs within a 64 block radius by default to spawn.",
+				"T默认情况下，恐惧灯会阻止 64 格半径内的被动生物生成。",
 				"",
-				"&cIt's best used in mob grinders to prevent &bbats &cfrom spawning."
+				"&c最好在暴民研磨机中使用，以防止 &b蝙蝠 &c 生成。"
 			],
 			dependencies: ["4D24D92E56049467"],
 			hide: true,
@@ -187,22 +187,22 @@
 			x: -1.5d,
 			y: -3.5d,
 			description: [
-				"Mob Farms are a great resource once you have enough blocks to build one.",
+				"一旦你有足够的方块来建造，刷怪塔就是一个很好的资源。",
 				"",
-				"There are so many models of farms in the internet, it's hard to point out which fits your taste.",
+				"互联网上有很多刷怪场模型，很难指出哪一个适合你的口味。",
 				"",
-				'It might be counter productive to type this, but do some research on the internet for "skyblock mob farms" and you got some complicated and simple models to choose.',
+				'输入这个可能会适得其反，但是在互联网上对“空岛刷怪场”进行一些研究，你会得到一些复杂而简单的模型可供选择。',
 				"",
-				"But a simple modded tip will be related to water due to most vanilla builds.",
+				"但是由于大多数原版游戏，一个简单的修改提示将与水有关。",
 				"",
-				"Enderman will teleport out of water, so if you got conveyor belts or fans, you can deal with them with those by replacing the water."
+				"末影人会从水中传送出去，所以如果你有传送带或风扇，你可以通过更换水来处理它们。"
 			],
 			dependencies: ["723868AAF4E86CDA"],
 			id: "04A5BB12290114F0",
 			tasks: [{
 				id: "5046BACBA500149A",
 				type: "checkmark",
-				title: "Mob Farms",
+				title: "刷怪场",
 				icon: "darkutils:dark_glass"
 			}],
 			rewards: [{
@@ -213,16 +213,16 @@
 			}]
 		},
 		{
-			title: "Cobble for days",
+			title: "圆石几天",
 			icon: "minecraft:cobblestone",
 			x: 2.0d,
 			y: -7.0d,
 			description: [
-				'&a&lGarden of Glass &f&rgives a function to get cobblestone. By crouching and "using" (default: Right mouse button) on Grass or dirt you will get pebbles.',
+				'&a&l水晶花园 &f&r给出一个获取圆石的方法。 通过在草地或泥土上蹲下并“使用”（默认：鼠标右键），你会得到石子.',
 				"",
-				"It works in all worlds.",
+				"它适用于所有世界。",
 				"",
-				"4 pebbles = 1 cobblestone"
+				"4 颗石子 = 1 颗圆石"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "210D944A362B883D",
@@ -244,20 +244,20 @@
 			x: -2.0d,
 			y: -7.0d,
 			description: [
-				"Grass is your friend, especially for seeds and such once you get bonemeal.",
+				"草是你的朋友，尤其是种子等，一旦你得到骨粉。",
 				"",
-				"A Grass block will transfer to dirt with time.",
+				"草块会随着时间转移到泥土上。",
 				"",
-				"Grass can be regain by sieving dirt.",
+				"草可以通过筛选泥土重新获得。",
 				"",
-				"Cows, Chicken, Pigs, and Sheeps only spawn on Grass Blocks."
+				"牛、鸡、猪和羊只在草方块上生成。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "60DED58D4B7C3469",
 			tasks: [{
 				id: "071745F05B5A084E",
 				type: "checkmark",
-				title: "Grass Preservation",
+				title: "保护草",
 				icon: "minecraft:grass_block"
 			}],
 			rewards: [{
@@ -273,18 +273,18 @@
 			y: -9.0d,
 			shape: "hexagon",
 			description: [
-				"Excavation mods is risky for skyblocks, not because it's overpowered, but it can destroy your island by accident.",
+				"挖掘模型对天空块来说是有风险的，不是因为它被压倒了，而是它可能会意外地摧毁你的岛屿。",
 				"",
-				"Use it at your own risk.",
+				"需要您自担风险使用它。",
 				"",
-				"A tip for using such mod, will be using it while aiming at another block that has a slower mining speed. Such as cobblestone when mining a tree instead of dirt."
+				"使用此类 mod 的一个技巧是在瞄准另一个采矿速度较慢的区块时使用它。例如在挖掘树而不是泥土时使用圆石。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "717BDA6A3021777F",
 			tasks: [{
 				id: "44CD1E4D2B7B292E",
 				type: "checkmark",
-				title: "Any Veinmine/Excavation Mod",
+				title: "任何 连锁采矿/矿石挖掘 模组",
 				icon: "silentgear:hammer_template"
 			}],
 			rewards: [{
@@ -298,16 +298,16 @@
 			x: 1.5d,
 			y: -8.5d,
 			description: [
-				"This pack has Corail Tombstones, when you die you will receive a Key.",
+				"这个整合包有 Corail 墓碑，当你死后你会得到一把钥匙。",
 				"",
-				"You can teleport to your grave by crafting an enderpearl to that key, or by random chance it will already be enchanted to teleport to your grave."
+				"你可以通过在钥匙上制作一颗末影珍珠来传送到你的坟墓，或者随机地它已经被附魔传送到你的坟墓。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "26116A2460113D48",
 			tasks: [{
 				id: "445893DD7D8F0688",
 				type: "checkmark",
-				title: "In case of death",
+				title: "在死亡的情况下",
 				icon: {
 					id: "tombstone:decorative_grave_cross",
 					Count: 1b,
@@ -324,19 +324,19 @@
 			}]
 		},
 		{
-			title: "Garden of Glass Island spawning",
+			title: "水晶花园岛屿生成",
 			icon: "astralsorcery:tree_beacon",
 			x: -1.5d,
 			y: -9.75d,
 			shape: "gear",
 			description: [
-				"This will spawn the player the island. Even for single player, it does help using the command for the next tip.",
+				"这将在岛上生成玩家。即使对于单人游戏，它也有助于使用该命令进行下一个技巧。",
 				"",
-				"Once an island is created, you can return from the GoG overworld with",
+				"创建岛屿后，您可以使用以下命令从 GoG 世界返回",
 				"",
-				"&b/gog visit {Username}",
+				"&b/gog visit {用户名}",
 				"",
-				"It's due to the lack of the commands we added",
+				"这是由于缺少我们添加的命令",
 				"&l&bFTB Essentials"
 			],
 			dependencies: ["3E01A250909FFC9A"],
@@ -345,13 +345,13 @@
 			tasks: [{
 				id: "67FC0EC50D203431",
 				type: "checkmark",
-				title: "Island Spawning",
+				title: "岛屿生成",
 				icon: "botania:green_floating_flower"
 			}],
 			rewards: [{
 				id: "47B76F6B2050C684",
 				type: "command",
-				title: "Spawn Island",
+				title: "生成空岛",
 				icon: "botania:green_floating_flower",
 				team_reward: false,
 				auto: "no_toast",
@@ -360,38 +360,38 @@
 			}]
 		},
 		{
-			title: "Client side features",
+			title: "客户端功能",
 			x: 1.5d,
 			y: -5.5d,
 			description: [
-				"There are many mods that gives client side features, such as:",
+				"有许多提供客户端功能的模组，例如：",
 				"",
 				"- Quark",
 				"- Find Me",
 				"- Jei",
-				"- and more",
+				"- 更多……",
 				"",
-				"There is one vanilla minecraft feature people must know as well.",
+				"人们也必须知道一个原版Minecraft功能。",
 				"",
-				"Here are a few tips especially good for early game."
+				"这里有一些对早期游戏特别有用的技巧。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "1E48DA1EB612BDFA",
 			tasks: [{
 				id: "20788A5A793454A1",
 				type: "checkmark",
-				title: "Power of the Quark"
+				title: "夸克的力量"
 			}]
 		},
 		{
-			title: "Which storage has it?",
+			title: "哪个存储有它？",
 			icon: "minecraft:chest",
 			x: 3.5d,
 			y: -5.5d,
 			description: [
-				"&b&lFind Me &f&ris a simple mod that can even use &9&lJEI &rto find which storage the item you are looking for.",
+				"&b&lFind Me &f&r是一个简单的模组，甚至可以使用 &9&lJEI &r来查找您要查找的物品存储。",
 				"",
-				"You can search the item in &9JEI&r's search bar, and press Y while hovering your mouse over the item."
+				"Y您可以在 &9JEI&r 的搜索栏中搜索该项目，然后在将鼠标悬停在该项目上时按 Y。"
 			],
 			dependencies: ["1E48DA1EB612BDFA"],
 			id: "020D76BDCC1FC60B",
@@ -407,14 +407,14 @@
 			}]
 		},
 		{
-			title: "Chunk Borders",
+			title: "区块边界",
 			icon: "restrictions:oneway_wall",
 			x: 1.5d,
 			y: -3.5d,
 			description: [
-				"This is pretty much a Vanilla Minecraft thing, but to see chunk borders you simply have to:",
+				"这几乎是原版 Minecraft 的东西，但要查看区块边界，您只需：",
 				"",
-				"Hold F3 + G"
+				"按住 F3 + G"
 			],
 			dependencies: ["1E48DA1EB612BDFA"],
 			id: "643C3A109D13440B",
@@ -430,26 +430,26 @@
 			}]
 		},
 		{
-			title: "Important Commands",
+			title: "重要命令",
 			icon: "computercraft:computer_command",
 			x: -1.5d,
 			y: -8.5d,
 			shape: "gear",
 			description: [
-				"There are 2 skyblock type world generation, and both provide their own commands.",
+				"有 2 个空岛类型的世界生成，并且都提供了自己的命令。",
 				"",
-				"Their list of commands only work in their respective world Generation; in which will be provided as the next tips.",
+				"他们的命令列表只适用于他们各自的世界生成；其中将作为下一个提示提供。",
 				"",
-				"We also have the Mod &l&bFTB Essentials",
+				"我们还有 &l&bFTB Essentials 模组",
 				"",
-				"Which provides the classic",
+				"它提供了经典",
 				"&b/sethome",
 				"&b/home",
 				"&b/spawn",
 				"&b/tpa",
 				"&b/tpahere",
 				"",
-				"Even for server owners they can set up warps as well"
+				"即使对于服务器所有者，他们也可以设置坐标"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "3E01A250909FFC9A",
@@ -459,45 +459,45 @@
 			}]
 		},
 		{
-			title: "Skyblock World Commands",
+			title: "空岛世界命令",
 			icon: "astralsorcery:tree_beacon",
 			x: -2.8d,
 			y: -8.45d,
 			shape: "gear",
 			description: [
-				"This world gen provides a semi-classic Skyblock island provided with a tree, a chest with lava and ice, and grass.",
+				"这个世界生成提供了一个半经典的空岛，岛上有一棵树、一个装有熔岩和冰的箱子和草。",
 				"",
-				"Creating skyblock (provided by checking here)",
+				"创建空岛（通过检查此处提供）",
 				"&c/skyblock create",
 				"",
-				"Teleporting to your island",
+				"传送到你的岛屿",
 				"&c/skyblock home",
 				"",
-				"Seeing Teams (seeing all the names in the team if you add the team name)",
+				"查看团队（如果添加团队名称，则查看团队中的所有名称）",
 				"&c/skyblock list",
 				"",
-				"Visiting other islands",
+				"游览其他岛屿",
 				"&c/skyblock visit <team>",
 				"",
-				"Renaming Team",
+				"重命名团队",
 				"&c/skyblock team rename <new name>",
 				"",
-				"Inviting Players",
+				"邀请玩家",
 				"&c/skyblock invite <player>",
 				"",
-				"Accepting or Declining invite",
+				"接受/拒绝邀请",
 				"&c/skyblock accept/decline <team>",
 				"",
-				"Sending Join Request",
+				"发送加入请求",
 				"&c/skyblock join <team>",
 				"",
-				"Accept/Deny Request",
+				"接受/拒绝请求",
 				"&c/skyblock team accept/deny <player>",
 				"",
-				"Disabling requests",
+				"禁用请求",
 				"&c/skyblock team allowRequests true/false",
 				"",
-				"&eSpawn and For Single Player Worlds for players who started on Spawn",
+				"&eSpawn 和 For Single Player Worlds 适合从 Spawn 开始的玩家",
 				"&c/skyblock spawn"
 			],
 			dependencies: ["3E01A250909FFC9A"],
@@ -528,7 +528,7 @@
 			]
 		},
 		{
-			title: "Quest Suggestions?",
+			title: "任务建议？",
 			icon: {
 				id: "minecraft:player_head",
 				Count: 1b,
@@ -555,24 +555,24 @@
 			y: -4.5d,
 			shape: "gear",
 			description: [
-				"Hello there, I am Thunder_Nova (Pun_isher), I am the person who is making the quests.",
+				"大家好，我是 Thunder_Nova (Pun_isher)，我是做任务的人。",
 				"",
-				"I am currently open to suggestions from you the players.",
+				"我目前对各位玩家的建议持开放态度。",
 				"",
-				"In the All the mods Discord you can Ping me with",
+				"在ATM的 Discord 中，你可以 Ping 我",
 				"&b@Thunder_Nova (Pun_isher)",
 				"",
-				"&cWarning: &eI do not deal with server issues, nor program recipes and such. I do know how mods work; code wise. So please, don't ask me about something I have no control over. Just ask me about Quests, or guides to mods. &cThe Quest bellow will is supposed to disclose you on how to report issues.",
+				"&c警告： &e我不处理服务器问题，也不处理程序配方等。 我确实知道模组是如何工作的；代码明智。 所以，请不要问我一些我无法控制的事情。 只需问我有关任务或模组指南的信息即可。 &cQuest bellow 将向您披露如何报告问题。",
 				"",
-				"Please do it in the &b#suggestion &fchannel",
+				"请在 &b#suggestion &fchannel",
 				"",
-				"even for a fix, I am trying to add random rewards and stories as well. I do know how to balance them, yet with a huge modpack, it takes time to make decisions.",
+				"即使是为了修复，我也在尝试添加随机奖励和故事。我确实知道如何平衡它们，但是对于一个庞大的整合包，做出决定需要时间。",
 				"",
-				"My weakness is probably the magic mods, so I am happy to receive some suggestions.",
+				"我的弱点可能是魔法模组，所以我很高兴收到一些建议。",
 				"",
-				"And if you guys want, you can add your jokes in relation to some quests. Which will be credited if you want. I love adding a bit of humour. Even child friendly bad ones (puns lol).",
+				"如果你们愿意，您可以添加与某些任务相关的笑话。 如果您愿意，将记入其中。我喜欢增加一点幽默感。",
 				"",
-				"So giving you guys a Heads up... or 2"
+				"所以给你们一个提醒......或者？"
 			],
 			dependencies: ["76200C6568457C8C"],
 			size: 1.5d,
@@ -604,7 +604,7 @@
 								]
 							},
 							display: {
-								Name: '{"text":"Pun_isher"}'
+								Name: '{"text":"双关语"}'
 							}
 						}
 					}
@@ -631,7 +631,7 @@
 								]
 							},
 							display: {
-								Name: '{"text":"Thunder_Nova"}'
+								Name: '{"text":"雷霆新星"}'
 							}
 						}
 					}
@@ -639,17 +639,17 @@
 			]
 		},
 		{
-			title: "Modpack Issues and Suggestions?",
+			title: "整合包问题和建议？",
 			icon: "mekanism:cardboard_box",
 			x: 0.0d,
 			y: -2.5d,
 			shape: "gear",
 			description: [
-				"The best way to communicate with us is by going through &dGithub",
+				"与我们沟通的最佳方式是通过 &dGithub",
 				"",
-				"It's ok going through Discord, but it tends to get missed if a lot chats into it.",
+				"可以通过 Discord，但如果有很多聊天，它往往会被错过。",
 				"",
-				"In &dGithub &falso has a search for open and closed issues. Someone might already have a problem similar to you, or a fix."
+				"在 &dGithub &f 中也可以搜索打开和关闭的问题。有人可能已经遇到了与您类似的问题，或者已经解决了。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			size: 1.5d,
@@ -694,8 +694,8 @@
 						id: "minecraft:written_book",
 						Count: 1b,
 						tag: {
-							pages: ['["",{"text":"Github Issue Page","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://github.com/AllTheMods/atm6-sky/issues"}},{"text":"\\n\\n","color":"reset","underlined":true},{"text":"Discord","bold":true,"underlined":true,"color":"dark_blue","clickEvent":{"action":"open_url","value":"https://discord.gg/K5FBPYa"}},{"text":"\\n\\n","color":"reset","underlined":true},{"text":"Patreon","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"open_url","value":"https://www.patreon.com/join/allthemods"}}]'],
-							title: "ATM6s Book of Links",
+							pages: ['["",{"text":"Github 问题页面","bold":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://github.com/AllTheMods/atm6-sky/issues"}},{"text":"\\n\\n","color":"reset","underlined":true},{"text":"Discord","bold":true,"underlined":true,"color":"dark_blue","clickEvent":{"action":"open_url","value":"https://discord.gg/K5FBPYa"}},{"text":"\\n\\n","color":"reset","underlined":true},{"text":"Patreon","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"open_url","value":"https://www.patreon.com/join/allthemods"}}]'],
+							title: "ATM6s 链接书",
 							author: "All the Mods 6: To the Sky",
 							display: {}
 						}
@@ -704,7 +704,7 @@
 			]
 		},
 		{
-			title: "The rest of the team",
+			title: "团队的其他成员",
 			icon: {
 				id: "botania:lens_paint",
 				Count: 1b,
@@ -714,9 +714,9 @@
 			y: -0.5d,
 			shape: "gear",
 			description: [
-				"The team that contributed massively to the pack.",
+				"为团队做出巨大贡献的团队。",
 				"",
-				"We got Artists, Modders, Editors, and so on."
+				"我们有艺术家、模组制作者、编辑等等。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			size: 1.8d,
@@ -861,16 +861,16 @@
 			]
 		},
 		{
-			title: "Teleporting Problems?",
+			title: "传送问题？",
 			icon: "minecraft:ender_pearl",
 			x: -3.5d,
 			y: -7.0d,
 			description: [
-				"Enderman, endermites, and some other mobs and players can teleport.",
+				"末影人、末影螨和其他一些生物和玩家可以传送。",
 				"",
-				"A way to prevent it is to use the Mob inhibitor from Mob Utilities mod.",
+				"防止它的一种方法是使用刷怪塔实用设备模组中的生物抑制器。",
 				"",
-				"It can prevent anything in it's range to teleport."
+				"它可以阻止范围内的任何东西传送。"
 			],
 			dependencies: ["76200C6568457C8C"],
 			id: "7E2556F91B1A852C",

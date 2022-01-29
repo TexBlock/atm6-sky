@@ -3,18 +3,18 @@
 	group: "",
 	order_index: 3,
 	filename: "resourceful_ways",
-	title: "Resourceful Ways",
+	title: "足智多谋的方式",
 	default_quest_shape: "hexagon",
 	quests: [
 		{
 			x: 0.0d,
 			y: -1.0d,
 			description: [
-				"Incomming quests in this page will be mainly Bees, and Mystical Agriculture",
+				"此页面中的传入任务将主要是蜜蜂和神秘农业",
 				"",
-				"For Sky, the Natural spawning Bees will have a crafting recipe to spawn them.",
+				"对于天空，自然生成蜜蜂将有一个制作配方来生成。",
 				"",
-				"Currently Quartz, Cobbee, Lava, Water, RGB, Glowing, Lumber, Spooky, Magma, Ender, Slimy, and Beeper."
+				"目前 Quartz、Cobbee、岩浆、水、RGB、Glowing、Lumber、Spooky、Magma、Ender、Slimy 和 Beeper。"
 			],
 			id: "52F21A2514CC6100",
 			tasks: [{
@@ -23,7 +23,7 @@
 			}]
 		},
 		{
-			title: "Grounded Mobs",
+			title: "刷怪",
 			x: 1.0d,
 			y: -4.0d,
 			shape: "square",
@@ -36,7 +36,7 @@
 			}]
 		},
 		{
-			title: "Mystical Path",
+			title: "神秘之路",
 			x: -3.5d,
 			y: -1.5d,
 			shape: "circle",
@@ -60,18 +60,18 @@
 			}]
 		},
 		{
-			title: "Danger, Player! Danger!",
+			title: "危险，玩家！危险！",
 			icon: "allthemodium:molten_bluelava_bucket",
 			x: 1.5d,
 			y: -1.0d,
 			description: [
-				"Thanks to Tinker's Construct, Soul Lava is now craftable.",
+				"多亏了匠魂，灵魂熔岩现在可以制作了。",
 				"",
-				"Take note, that Soul Lava has a burn radius of at most 10 blocks, so &cDON'T PUT IT NEAR ANY WOOD PLATFORMS.",
+				"请注意，灵魂熔岩的燃烧半径最多为 10 个方块，因此 &c不要将其放在任何木质平台附近。",
 				"",
-				"It's best if you use bottom stone slabs, since the fire does spread on all blocks.",
+				"最好使用底部石板，因为火势会蔓延到所有方块。",
 				"",
-				"Soul Lava has some neat attributes when combined with certain liquids. (mainly water and lava)"
+				"灵魂熔岩与某些液体结合时具有一些简洁的属性。 （主要是水和熔岩）"
 			],
 			hide: true,
 			id: "5D005AFE039F1F97",
@@ -93,7 +93,7 @@
 			}]
 		},
 		{
-			title: "YEET!",
+			title: "耶！",
 			x: -3.87244897959183d,
 			y: 1.7210884353741278d,
 			id: "66066AD2A9F4EB73",
@@ -109,7 +109,7 @@
 			}]
 		},
 		{
-			title: "Lava Larva",
+			title: "熔岩幼虫",
 			x: -3.5d,
 			y: 1.0d,
 			id: "23FCBE52D856E62B",
@@ -125,7 +125,7 @@
 			}]
 		},
 		{
-			title: "Don't do drugs",
+			title: "不要吸毒",
 			x: -3.5459183673469283d,
 			y: 3.1904761904761685d,
 			dependencies: [
@@ -140,7 +140,7 @@
 			}]
 		},
 		{
-			title: "A B from the C",
+			title: "A B 来自 C",
 			x: -2.714285714285708d,
 			y: 1.0178571428571388d,
 			id: "4C84735F39851790",
@@ -156,7 +156,7 @@
 			}]
 		},
 		{
-			title: "Bee-ing Obsidian",
+			title: "黑曜石蜜蜂",
 			x: -3.107142857142854d,
 			y: 1.732142857142854d,
 			dependencies: [
@@ -186,7 +186,7 @@
 			}]
 		},
 		{
-			title: "The Coal-ition of Bees",
+			title: "煤炭蜜蜂",
 			x: -2.3367346938775455d,
 			y: 1.724489795918359d,
 			dependencies: [
@@ -201,7 +201,7 @@
 			}]
 		},
 		{
-			title: "Spooky Scary Bee, Sends shiver...",
+			title: "令人毛骨悚然的可怕蜜蜂，让人不寒而栗……",
 			x: -1.1734693877551194d,
 			y: 1.0102040816326507d,
 			id: "3BEF05D9B023AD14",
@@ -217,7 +217,7 @@
 			}]
 		},
 		{
-			title: "What in Blazes?",
+			title: "大火中有什么？",
 			x: -1.5408163265306314d,
 			y: 1.724489795918366d,
 			description: [""],
@@ -233,7 +233,7 @@
 			}]
 		},
 		{
-			title: "Beehave for Mama Magma",
+			title: "蜂王的妈妈岩浆",
 			x: -0.7653061224489974d,
 			y: 1.724489795918366d,
 			id: "06B89EB00EAA91B2",
@@ -249,7 +249,7 @@
 			}]
 		},
 		{
-			title: "Diamond in the rough",
+			title: "粗糙的钻石",
 			x: -2.724489795918366d,
 			y: 2.4387755102040813d,
 			dependencies: [
@@ -264,7 +264,7 @@
 			}]
 		},
 		{
-			title: "Lead the way to the Hive",
+			title: "带路去蜂巢",
 			x: -1.9336734693877489d,
 			y: 2.4353741496598573d,
 			dependencies: [
@@ -279,7 +279,7 @@
 			}]
 		},
 		{
-			title: "Golden Opportunibee",
+			title: "黄金机会蜂",
 			x: -5.030612244897959d,
 			y: 4.421768707482961d,
 			dependencies: [
@@ -308,7 +308,7 @@
 			}]
 		},
 		{
-			title: "Tintin",
+			title: "钉钉（？）",
 			x: -2.0357142857142847d,
 			y: 4.3741496598639245d,
 			dependencies: [
@@ -323,7 +323,7 @@
 			}]
 		},
 		{
-			title: "Bad boys what you gotta do?",
+			title: "坏孩子你该怎么办？",
 			x: -3.051020408163268d,
 			y: 4.36054421768705d,
 			dependencies: [
@@ -338,7 +338,7 @@
 			}]
 		},
 		{
-			title: "Ironic Bee",
+			title: "讽刺蜜蜂",
 			x: -0.549999999999983d,
 			y: 3.3578231292516776d,
 			dependencies: [
@@ -353,7 +353,7 @@
 			}]
 		},
 		{
-			title: "Singing the Blues",
+			title: "唱蓝调",
 			x: -0.1581632653061149d,
 			y: 5.068027210884338d,
 			hide_dependency_lines: true,
@@ -369,7 +369,7 @@
 			}]
 		},
 		{
-			title: "Off-Quartz you do...",
+			title: "你做的不是石英...",
 			x: -2.382653061224481d,
 			y: 3.2925170068027185d,
 			id: "0842B444F9F9281E",
@@ -385,7 +385,7 @@
 			}]
 		},
 		{
-			title: "I am Certus",
+			title: "我相信",
 			x: -3.4387755102040813d,
 			y: 5.054421768707456d,
 			hide_dependency_lines: true,
@@ -401,7 +401,7 @@
 			}]
 		},
 		{
-			title: "The Silver of hope",
+			title: "希望之银",
 			x: -4.642857142857146d,
 			y: 5.115646258503375d,
 			description: [""],
@@ -417,7 +417,7 @@
 			}]
 		},
 		{
-			title: "Are G Bees?",
+			title: "RGB蜜蜂?",
 			x: 0.20918367346939704d,
 			y: 5.761904761904738d,
 			id: "014CF7F75E8ADFEF",
@@ -433,7 +433,7 @@
 			}]
 		},
 		{
-			title: "Red October",
+			title: "红色十月",
 			x: -0.5459183673469354d,
 			y: 5.761904761904745d,
 			dependencies: [
@@ -448,7 +448,7 @@
 			}]
 		},
 		{
-			title: "Happy Bee",
+			title: "快乐蜜蜂",
 			x: -0.9132653061224403d,
 			y: 6.455782312925159d,
 			id: "7F784E785A4B4FBD",
@@ -464,7 +464,7 @@
 			}]
 		},
 		{
-			title: "The Ozzy Bee",
+			title: "奥兹蜜蜂",
 			x: -0.9132653061224403d,
 			y: 5.068027210884345d,
 			dependencies: [
@@ -479,7 +479,7 @@
 			}]
 		},
 		{
-			title: "Fluo Rights",
+			title: "对氟（谐音梗是吧）",
 			x: -1.3010204081632537d,
 			y: 5.761904761904738d,
 			dependencies: [
@@ -494,7 +494,7 @@
 			}]
 		},
 		{
-			title: "Surprise! I am not Electrum.",
+			title: "太好了！我不是机器人。",
 			x: -5.397959183673464d,
 			y: 5.115646258503375d,
 			description: [""],
@@ -510,7 +510,7 @@
 			}]
 		},
 		{
-			title: "I am Sliming",
+			title: "我在减肥（下次一定）",
 			x: -5.418367346938773d,
 			y: 3.7278911564625545d,
 			id: "62A65412CFE0446B",
@@ -526,7 +526,7 @@
 			}]
 		},
 		{
-			title: "Admiral Emerald",
+			title: "翡翠上将",
 			x: -4.642857142857146d,
 			y: 3.707482993197246d,
 			dependencies: [
@@ -541,7 +541,7 @@
 			}]
 		},
 		{
-			title: "The Urini Knight",
+			title: "乌里尼骑士",
 			x: -5.8061224489796d,
 			y: 4.421768707482961d,
 			dependencies: [
@@ -556,7 +556,7 @@
 			}]
 		},
 		{
-			title: "Bee-p Bee-p Boom",
+			title: "bili？（还玩谐音梗是吧）",
 			x: -6.183673469387742d,
 			y: 5.115646258503375d,
 			id: "687CBC2E8411A21E",
@@ -572,7 +572,7 @@
 			}]
 		},
 		{
-			title: "This is my Ender Game",
+			title: "这是我的末影游戏",
 			x: -5.040816326530603d,
 			y: 5.809523809523782d,
 			id: "16CCA9D98EA8F08F",
@@ -588,7 +588,7 @@
 			}]
 		},
 		{
-			title: "Radio Active",
+			title: "这玩意有放射性",
 			x: -5.795918367346928d,
 			y: 5.809523809523775d,
 			dependencies: [
@@ -603,7 +603,7 @@
 			}]
 		},
 		{
-			title: "Skidamarink A Zinc A Zinc",
+			title: "这得多吃，补充一下微量元素锌（？",
 			x: -1.6683673469387656d,
 			y: 5.068027210884345d,
 			dependencies: [
@@ -618,7 +618,7 @@
 			}]
 		},
 		{
-			title: "Nickel Nicknamed Nick",
+			title: "镍子（3次了，3次啊）",
 			x: -1.2806122448979522d,
 			y: 4.3741496598639245d,
 			dependencies: [
@@ -633,7 +633,7 @@
 			}]
 		},
 		{
-			title: "Wither bee here or there",
+			title: "枯萎的蜜蜂在这里或那里",
 			x: -1.1499999999999773d,
 			y: 2.4435374149659665d,
 			dependencies: [
@@ -648,15 +648,15 @@
 			}]
 		},
 		{
-			title: "Drag-in the Egg",
+			title: "拖入彩蛋",
 			x: 2.0d,
 			y: 2.5d,
 			description: [
-				"Welcome to the true 2nd mutation bee of the mutation line.",
+				"欢迎来到突变系真正的第二突变蜜蜂。",
 				"",
-				"To get this bee, you have to mutate a dragon egg by pollinating it, with a wither bee.",
+				"要得到这只蜜蜂，你必须用枯萎的蜜蜂授粉来变异龙蛋。",
 				"",
-				"Then from the Dragon to the next material and so on for these mutation quests."
+				"然后从龙到下一个材料等等这些突变任务。"
 			],
 			dependencies: ["3078D0FA79DACF69"],
 			id: "64DEE67107E6ABCB",
@@ -711,7 +711,7 @@
 			}]
 		},
 		{
-			title: "Seed for Though",
+			title: "虽然是种子",
 			x: -3.5d,
 			y: -2.5d,
 			shape: "diamond",
@@ -745,7 +745,7 @@
 			}]
 		},
 		{
-			title: "The Inferior Essence",
+			title: "劣质本质",
 			x: -5.0d,
 			y: -1.5d,
 			shape: "circle",
@@ -877,16 +877,16 @@
 			}]
 		},
 		{
-			title: "Circle of Souls",
+			title: "灵魂之环",
 			x: -3.5d,
 			y: -0.5d,
 			shape: "rsquare",
 			description: [
-				"Some seeds require you to kill the mobs needed to get the seeds.",
+				"有些种子需要你杀死获得种子所需的生物。",
 				"",
-				"It does require 4 jars of the same creature. The dagger helps a lot when killing the passive mobs.",
+				"它确实需要 4 罐相同的生物。匕首在杀死被动小怪时有很大帮助。",
 				"",
-				"There is also the experience jar, it's just for the experience seed."
+				"还有经验罐，就是经验种子用的。"
 			],
 			id: "75560045ED084900",
 			tasks: [
@@ -2620,14 +2620,14 @@
 			}]
 		},
 		{
-			title: "Wither me down",
+			title: "让我枯萎",
 			x: 0.0d,
 			y: -4.0d,
 			shape: "square",
 			description: [
-				"This glass prevents light to go through.",
+				"这种玻璃可以防止光线通过。",
 				"",
-				"Yet surprisingly it also prevents the wither boss to break it."
+				"然而令人惊讶的是，它也能阻止了凋灵破坏它。"
 			],
 			dependencies: ["6F376B7752A5CC72"],
 			id: "47EA4649851B1524",
@@ -2638,7 +2638,7 @@
 			}]
 		},
 		{
-			title: "Mob Grinding utilities",
+			title: "刷怪塔实用设备",
 			x: 0.0d,
 			y: -2.5d,
 			shape: "square",
@@ -2649,14 +2649,14 @@
 			}]
 		},
 		{
-			title: "Will it blend?",
+			title: "它会融合吗？",
 			x: 1.0d,
 			y: -5.0d,
 			shape: "square",
 			description: [
-				"This works with redstone, but it's way more powerful then the spikes.",
+				"这适用于红石，但它比尖刺更强大。",
 				"",
-				"It can be upgraded. Which will be provided in the next quest."
+				"它可以升级。这将在下一个任务中提供。"
 			],
 			dependencies: ["0B1BC6C283362824"],
 			id: "19C870C6C67CA851",
@@ -2667,13 +2667,13 @@
 			}]
 		},
 		{
-			title: "Bad Time Trio",
+			title: "崩坏三（？",
 			x: 1.0d,
 			y: -6.0d,
 			description: [
-				"These are the most popular to be added those bonified blenders.",
+				"这些是最受欢迎的添加那些骨化搅拌机。",
 				"",
-				"There are more that can be added and combined."
+				"还有更多可以添加和组合的内容。"
 			],
 			dependencies: ["19C870C6C67CA851"],
 			id: "0C05F7B6F9578894",
@@ -2699,13 +2699,13 @@
 			]
 		},
 		{
-			title: "Extra fire power",
+			title: "额外的火力",
 			x: 1.0d,
 			y: -7.0d,
 			description: [
-				"Unlike enchanting, even if you have sharpness you can still add the other two specific mob damage upgrade.",
+				"与附魔不同，即使你有锋利度，你仍然可以添加另外两个特定的生物伤害升级。",
 				"",
-				"Fire upgrade... it pretty much cooks up your mobs to oblivion."
+				"火力升级......它几乎烤熟怪物。"
 			],
 			dependencies: ["19C870C6C67CA851"],
 			id: "2AD275B10F52236E",
@@ -2731,13 +2731,13 @@
 			]
 		},
 		{
-			title: "This is a must for enderman farming",
+			title: "这是刷末影人的必备品",
 			x: 2.0d,
 			y: -5.0d,
 			description: [
-				"Since I already gave one in Tips and Tricks, this is just here for the mob grinding set.",
+				"因为我已经在提示和技巧中给出了一个，所以这只是针对生物研磨套装。",
 				"",
-				"When you make a mob farm do use these to prevent enderman from teleporting out of your farms."
+				"当你建立一个刷怪塔时，一定要使用这些来防止末影人传送出你的刷怪塔。"
 			],
 			id: "1F66068EFCC15AFF",
 			tasks: [{
@@ -2747,14 +2747,14 @@
 			}]
 		},
 		{
-			title: "Mob's Biggest Fan",
+			title: "大  风  扇",
 			x: 0.0d,
 			y: -5.0d,
 			shape: "square",
 			description: [
-				"This is the best fan in the game in terms of area of effect when upgraded. It is redstone activated but it can push mobs at a wider range then other fans.",
+				"就升级时的影响区域而言，这是游戏中最好的风扇。 它是红石激活的，但它可以将小怪推到比其他粉丝更远的范围内。",
 				"",
-				"Just by itself it's pushes mobs 5 blocks from itself."
+				"就其本身而言，它会将生物推离自身 5 个方块远。"
 			],
 			hide_dependency_lines: true,
 			dependencies: ["6F376B7752A5CC72"],
@@ -2766,15 +2766,15 @@
 			}]
 		},
 		{
-			title: "Upgrading your fanbase",
+			title: "升级你的大 风 扇们",
 			x: 0.0d,
 			y: -6.0d,
 			description: [
-				"These upgrades will increase the fan from it's 1 block wide 5 blocks front, to when fully upgraded 7 blocks wide 15 blocks front.",
+				"这些升级将使风扇的范围从 1x5 方块增加到完全升级后的 7x15 方块。",
 				"",
-				"There is also a hight upgrade which is only useful against flying mobs and spiders climbing the walls.",
+				"还有一个高度升级，仅对飞行生物和蜘蛛有用。",
 				"",
-				"The upgrades can be adjusted so the fans don't overlap."
+				"升级可以调整，这样风扇就不会重叠。"
 			],
 			dependencies: ["751AD1599757DA6C"],
 			id: "3C0ADFF7BE9FDD16",
@@ -2798,9 +2798,9 @@
 			y: -5.0d,
 			shape: "square",
 			description: [
-				"This will solidify your experience into a solid state. This means you can even put it into storage such as drawers. As a bonus, it can be put into a compact drawer.",
+				"这会将您的经验固化成一个坚实的状态。这意味着您甚至可以将其放入抽屉等存储设备中。作为奖励，它可以放入紧凑的抽屉中。",
 				"",
-				"Also note that it can take all form of liquid experience, such as Essence, Knowledge Essence, Liquid Experience, and so on."
+				"另请注意，它可以采用所有形式的液体经验，例如精华、知识精华、液体经验等。"
 			],
 			hide_dependency_lines: true,
 			dependencies: ["6F376B7752A5CC72"],
@@ -2824,14 +2824,14 @@
 			}]
 		},
 		{
-			title: "Pulling in items and experience",
+			title: "拉取物品和经验",
 			x: -1.0d,
 			y: -4.0d,
 			shape: "square",
 			description: [
-				'The classic Vacuum for your mob grinding needs, it pulls in both items and experience. You just have to set up an output by "using" the Absorption Hopper.',
+				'虚空漏斗满足您的刷怪需求，它可以吸收物品和经验。您只需通过“使用”虚空漏斗来设置输出。',
 				"",
-				"The left icons shows the output, when selected will show the hopper. Drag the hopper to turn it, and select a side for your output."
+				"左侧图标显示输出，选择时将显示虚空漏斗。拖动虚空漏斗转动它，然后为您的输出选择一侧。"
 			],
 			dependencies: ["6F376B7752A5CC72"],
 			id: "7F22A38F1922FCAA",
@@ -2842,14 +2842,14 @@
 			}]
 		},
 		{
-			title: "Chickens will Curse the Earth",
+			title: "鸡  你  太  美",
 			x: 2.0d,
 			y: -4.0d,
 			shape: "square",
 			description: [
-				"Use this feed to create rotten eggs, using the egg on dirt will turn it into cursed earth. Mobs will spawn more on that earth.",
+				"用这个饲料制造臭鸡蛋，在泥土上使用鸡蛋会把它变成被诅咒之土。生物将在那个地球上产生更多。",
 				"",
-				'"Mwahaha, I have a chicken Army" - Taku_'
+				'"哇哈哈，我有鸡军”——Taku_'
 			],
 			dependencies: ["6F376B7752A5CC72"],
 			id: "155893E252EE4DE2",
@@ -2867,13 +2867,13 @@
 			]
 		},
 		{
-			title: "Wither there bee stars",
+			title: "枯萎有蜂星",
 			x: 0.72704081632655d,
 			y: 2.5314625850340065d,
 			description: [
-				"Welcome to the 2nd bee in the Mutation Line... oh wait... no.. you simply breed a netherite bee and a withered bee to get this.",
+				"欢迎来到突变线中的第二只蜜蜂……哦等等……不……你只需繁殖一只下界合金蜜蜂和一只凋零蜜蜂就可以得到这个。",
 				"",
-				"To get this bee, you have to mutate a dragon egg by pollinating it, with a withered bee."
+				"要得到这只蜜蜂，你必须通过给一只枯萎的蜜蜂授粉来变异龙蛋。"
 			],
 			dependencies: ["7DB9AE9AA5B725EC"],
 			id: "3078D0FA79DACF69",
@@ -2884,13 +2884,13 @@
 			}]
 		},
 		{
-			title: "Nethermind the Error",
+			title: "Nethermind 错误",
 			x: -0.022959183673449957d,
 			y: 2.5314625850340065d,
 			description: [
-				"Welcome to the 1st bee of the mutation line",
+				"欢迎来到突变系的第一只蜜蜂",
 				"",
-				"To get this bee, you need a gold bee to pollinate on a netherite block. You will get a Spawn Egg."
+				"要获得这只蜜蜂，您需要一只金蜜蜂在下界合金块上授粉。你会得到一个刷怪蛋。"
 			],
 			hide_dependency_lines: true,
 			dependencies: ["29F8515D25952A95"],
@@ -2956,9 +2956,9 @@
 			x: -3.5d,
 			y: -5.0d,
 			description: [
-				"These are 3 quests given to receive a 100% chance of an Overgrowth Seed Each to craft magical soil.",
+				"这是 3 个任务，每个任务都有 100% 的几率获得一个过度生长的种子来制作魔法土壤。",
 				"",
-				"So don't go accidently spend them if you didn't get any from the random rewards."
+				"因此，如果您没有从随机奖励中获得任何奖励，请不要意外花费它们。"
 			],
 			id: "748485FEC1097A71",
 			tasks: [{

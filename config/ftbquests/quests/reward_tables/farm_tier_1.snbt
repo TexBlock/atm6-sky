@@ -1,7 +1,7 @@
 {
 	id: "5C339B8F5E186C52",
 	order_index: 4,
-	title: "Farm Tier 1",
+	title: "农场 1 级",
 	icon: "mysticalagriculture:prudentium_farmland",
 	loot_size: 1,
 	rewards: [

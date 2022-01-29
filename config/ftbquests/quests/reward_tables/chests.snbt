@@ -1,7 +1,7 @@
 {
 	id: "7CE467CE28968A1A",
 	order_index: 0,
-	title: "chests",
+	title: "箱子",
 	loot_size: 1,
 	rewards: [
 		{

@@ -1,7 +1,7 @@
 {
 	id: "4815777E0F22B232",
 	order_index: 2,
-	title: "Average Reward",
+	title: "平均奖励",
 	loot_size: 1,
 	rewards: [
 		{
